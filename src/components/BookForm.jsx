@@ -2,7 +2,7 @@ import React from "react";
 import { useState } from "react";
 import HttpClient from "../httpClient/httpClient";
 
-const BookForm = () => {
+const BookForm = ({ onAddBook }) => {
   const [title, setTitle] = useState("");
   const [author, setAuthor] = useState("");
   const [price, setPrice] = useState(0);
@@ -23,6 +23,7 @@ const BookForm = () => {
       author,
       price,
     };
+    onAddBook(book);
     // You can handle the book object here, e.g., send to API or update state
     HttpClient.post("/books", book)
       .then((response) => console.log(response.data))

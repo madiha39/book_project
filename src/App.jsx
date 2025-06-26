@@ -14,9 +14,12 @@ const App = () => {
       .catch((error) => console.log(error));
   };
   useEffect(getBooks, []);
+  const addBook = (book) => {
+    setBooks([book, ...books]);
+  };
   return (
     <>
-      <BookForm />
+      <BookForm onAddBook={addBook} />
       <BookList books={books} />
     </>
   );
