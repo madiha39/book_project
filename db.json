@@ -1,0 +1,64 @@
+{
+  "books": [
+    {
+      "id": 1,
+      "title": "The Pragmatic Programmer",
+      "author": "Andrew Hunt, David Thomas",
+      "price": 42.99
+    },
+    {
+      "id": 2,
+      "title": "Clean Code",
+      "author": "Robert C. Martin",
+      "price": 37.50
+    },
+    {
+      "id": 3,
+      "title": "You Don't Know JS",
+      "author": "Kyle Simpson",
+      "price": 29.99
+    },
+    {
+      "id": 4,
+      "title": "JavaScript: The Good Parts",
+      "author": "Douglas Crockford",
+      "price": 25.00
+    },
+    {
+      "id": 5,
+      "title": "Refactoring",
+      "author": "Martin Fowler",
+      "price": 45.00
+    },
+    {
+      "id": 6,
+      "title": "Design Patterns",
+      "author": "Erich Gamma, Richard Helm, Ralph Johnson, John Vlissides",
+      "price": 55.00
+    },
+    {
+      "id": 7,
+      "title": "Introduction to Algorithms",
+      "author": "Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest, Clifford Stein",
+      "price": 80.00
+    },
+    {
+      "id": 8,
+      "title": "Eloquent JavaScript",
+      "author": "Marijn Haverbeke",
+      "price": 33.00
+    },
+    {
+      "id": 9,
+      "title": "Cracking the Coding Interview",
+      "author": "Gayle Laakmann McDowell",
+      "price": 39.95
+    },
+    {
+      "id": 10,
+      "title": "The Art of Computer Programming",
+      "author": "Donald E. Knuth",
+      "price": 190.00
+    }
+  ]
+}
