@@ -1,88 +1,40 @@
 {
   "books": [
     {
-      "id": "1",
-      "title": "The Pragmatic Programmer",
-      "author": "Andrew Hunt, David Thomas",
-      "price": 42.99
-    },
-    {
-      "id": "2",
-      "title": "Clean Code",
-      "author": "Robert C. Martin",
-      "price": 37.5
-    },
-    {
-      "id": "3",
-      "title": "You Don't Know JS",
-      "author": "Kyle Simpson",
-      "price": 29.99
-    },
-    {
-      "id": "4",
-      "title": "JavaScript: The Good Parts",
-      "author": "Douglas Crockford",
-      "price": 25
-    },
-    {
-      "id": "5",
-      "title": "Refactoring",
-      "author": "Martin Fowler",
-      "price": 45
-    },
-    {
-      "id": "6",
-      "title": "Design Patterns",
-      "author": "Erich Gamma, Richard Helm, Ralph Johnson, John Vlissides",
-      "price": 55
-    },
-    {
-      "id": "7",
-      "title": "Introduction to Algorithms",
-      "author": "Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest, Clifford Stein",
-      "price": 80
-    },
-    {
-      "id": "8",
-      "title": "Eloquent JavaScript",
-      "author": "Marijn Haverbeke",
-      "price": 33
-    },
-    {
-      "id": "9",
-      "title": "Cracking the Coding Interview",
-      "author": "Gayle Laakmann McDowell",
-      "price": 39.95
-    },
-    {
-      "id": "10",
-      "title": "The Art of Computer Programming",
-      "author": "Donald E. Knuth",
-      "price": 190
-    },
-    {
       "id": "dcaf",
       "title": "physic",
       "author": "mr y",
       "price": 200
     },
     {
-      "id": "7a5b",
-      "title": "physic",
-      "author": "mr y",
+      "id": "b207",
+      "title": "fhfgkjm",
+      "author": "gkjhkl",
+      "price": 100
+    },
+    {
+      "id": "2d45",
+      "title": "",
+      "author": "",
+      "price": 0
+    },
+    {
+      "id": "2e7d",
+      "title": "",
+      "author": "",
+      "price": 0
+    },
+    {
+      "id": "2d61",
+      "title": "ghgykhli",
+      "author": "klkku0",
       "price": 200
     },
     {
-      "id": "bb41",
-      "title": "math",
-      "author": "Mr xx",
-      "price": 300
-    },
-    {
-      "id": "d8a0",
-      "title": "fgtfghkj",
-      "author": "hjkjk",
-      "price": 30
+      "id": "57af",
+      "title": "ghgykhli",
+      "author": "klkku0",
+      "price": 200
     }
   ]
 }
