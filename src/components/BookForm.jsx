@@ -7,10 +7,15 @@ const BookForm = ({ onAddBook }) => {
   const [author, setAuthor] = useState("");
   const [price, setPrice] = useState(0);
 
+  const reset = () => {
+    setTitle("");
+    setAuthor("");
+    setPrice(0);
+  };
   const handleNameChange = (e) => {
     setTitle(e.target.value);
   };
-  const handlAuthorChange = (e) => {
+  const handleAuthorChange = (e) => {
     setAuthor(e.target.value);
   };
   const handlePriceChange = (e) => {
@@ -24,6 +29,7 @@ const BookForm = ({ onAddBook }) => {
       price,
     };
     onAddBook(book);
+    reset();
     // You can handle the book object here, e.g., send to API or update state
     HttpClient.post("/books", book)
       .then((response) => console.log(response.data))
@@ -47,7 +53,7 @@ const BookForm = ({ onAddBook }) => {
           <label htmlFor="author">Author:</label>
           <input
             value={author}
-            onChange={handlAuthorChange}
+            onChange={handleAuthorChange}
             type="text"
             id="author"
             name="author"

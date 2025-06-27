@@ -17,10 +17,19 @@ const App = () => {
   const addBook = (book) => {
     setBooks([book, ...books]);
   };
+
+  const deleteBook = (id) => {
+    HttpClient.delete(`/books/${id}`)
+      .then(() => {
+        setBooks(books.filter((book) => book.id !== id));
+      })
+      .catch((error) => console.log(error));
+  };
+
   return (
     <>
       <BookForm onAddBook={addBook} />
-      <BookList books={books} />
+      <BookList books={books} onDeleteBook={deleteBook} />
     </>
   );
 };
